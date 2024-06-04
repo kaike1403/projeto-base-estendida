@@ -47,24 +47,33 @@ async function buscarDados() {
 
         const nome = student.querySelector('Nome') ? student.querySelector('Nome').textContent : 'Nome não disponível';
         const notas = {
-            Portugues: student.querySelector('Portugues').textContent,
-            Matematica: student.querySelector('Matematica').textContent,
-            Biologia: student.querySelector('Biologia').textContent,
-            Fisica: student.querySelector('Fisica').textContent,
-            Quimica: student.querySelector('Quimica').textContent,
-            Historia: student.querySelector('Historia').textContent
+            Portugues: parseInt(student.querySelector('Portugues').textContent),
+            Matematica: parseInt(student.querySelector('Matematica').textContent),
+            Biologia: parseInt(student.querySelector('Biologia').textContent),
+            Fisica: parseInt(student.querySelector('Fisica').textContent),
+            Quimica: parseInt(student.querySelector('Quimica').textContent),
+            Historia: parseInt(student.querySelector('Historia').textContent)
         };
 
         document.getElementById('nome-aluno').textContent = `Nome: ${nome}`;
         document.getElementById('ra-aluno').textContent = `RA: ${ra}`;
 
         const tabela = document.getElementById('tabela-notas');
-        for (const [disciplina, nota] of Object.entries(notas)) {
+        for (const disciplina in notas) {
             const row = tabela.insertRow();
             const cell1 = row.insertCell(0);
             const cell2 = row.insertCell(1);
+            const cell3 = row.insertCell(2);
+
             cell1.textContent = disciplina;
-            cell2.textContent = nota;
+            cell2.textContent = notas[disciplina];
+
+            // Verifica se a nota é maior ou igual a 7 para definir a situação
+            if (notas[disciplina] >= 7) {
+                cell3.textContent = 'Aprovado';
+            } else {
+                cell3.textContent = 'Reprovado';
+            }
         }
 
     } catch (error) {
