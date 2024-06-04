@@ -1,4 +1,4 @@
-﻿<students>
+<students>
     <student RA="999999999">
         <NASC>11/11/1111</NASC>
         <Nome>João Silva</Nome>
@@ -18,5 +18,85 @@
         <Fisica>7</Fisica>
         <Quimica>10</Quimica>
         <Historia>2</Historia>
+    </student>
+    <student RA="924116000">
+        <NASC>08/12/2004</NASC>
+        <Nome>Horlando Henrique de Sousa Gomes</Nome>
+        <Portugues>6</Portugues>
+        <Matematica>5</Matematica>
+        <Biologia>7</Biologia>
+        <Fisica>8</Fisica>
+        <Quimica>4</Quimica>
+        <Historia>9</Historia>
+    </student>
+    <student RA="924115422">
+        <NASC>15/09/2003</NASC>
+        <Nome>Gabriel Henrique Souza do Amaral</Nome>
+        <Portugues>8</Portugues>
+        <Matematica>4</Matematica>
+        <Biologia>6</Biologia>
+        <Fisica>9</Fisica>
+        <Quimica>3</Quimica>
+        <Historia>7</Historia>
+    </student>
+    <student RA="924117709">
+        <NASC>20/06/2002</NASC>
+        <Nome>Guilherme Eduardo Alves Pereira</Nome>
+        <Portugues>9</Portugues>
+        <Matematica>6</Matematica>
+        <Biologia>3</Biologia>
+        <Fisica>8</Fisica>
+        <Quimica>5</Quimica>
+        <Historia>7</Historia>
+    </student>
+    <student RA="924117219">
+        <NASC>11/03/2001</NASC>
+        <Nome>Hugo Moises</Nome>
+        <Portugues>7</Portugues>
+        <Matematica>8</Matematica>
+        <Biologia>4</Biologia>
+        <Fisica>7</Fisica>
+        <Quimica>6</Quimica>
+        <Historia>6</Historia>
+    </student>
+    <student RA="924117677">
+        <NASC>04/07/2000</NASC>
+        <Nome>Vinicius Teixeira Sousa</Nome>
+        <Portugues>5</Portugues>
+        <Matematica>7</Matematica>
+        <Biologia>6</Biologia>
+        <Fisica>6</Fisica>
+        <Quimica>8</Quimica>
+        <Historia>8</Historia>
+    </student>
+    <student RA="923101717">
+        <NASC>18/10/2005</NASC>
+        <Nome>Lucas Alexandre Donha</Nome>
+        <Portugues>6</Portugues>
+        <Matematica>9</Matematica>
+        <Biologia>5</Biologia>
+        <Fisica>8</Fisica>
+        <Quimica>7</Quimica>
+        <Historia>6</Historia>
+    </student>
+    <student RA="924117516">
+        <NASC>14/03/2002</NASC>
+        <Nome>Kaique Batista Nagy</Nome>
+        <Portugues>8</Portugues>
+        <Matematica>7</Matematica>
+        <Biologia>6</Biologia>
+        <Fisica>7</Fisica>
+        <Quimica>9</Quimica>
+        <Historia>5</Historia>
+    </student>
+    <student RA="2223105899">
+        <NASC>09/02/2000</NASC>
+        <Nome>Eduardo Braga Brun</Nome>
+        <Portugues>7</Portugues>
+        <Matematica>6</Matematica>
+        <Biologia>8</Biologia>
+        <Fisica>5</Fisica>
+        <Quimica>9</Quimica>
+        <Historia>4</Historia>
     </student>
 </students>
